@@ -73,6 +73,9 @@ curl -L https://istio.io/downloadIstio | sh -
 
 cd istio-*/bin
 
+<img width="866" height="246" alt="image" src="https://github.com/user-attachments/assets/e01c01ae-9bba-418b-b3b6-dea8c24756a6" />
+
+
 export PATH=$PWD:$PATH
 
 istioctl install --set profile=ambient -y
